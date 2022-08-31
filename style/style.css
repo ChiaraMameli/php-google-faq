@@ -1,0 +1,31 @@
+/* GENERICS */
+*{
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.my-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* COMPONENTS STYLE */
+
+h2{
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding-top: 3rem;
+}
+
+p,
+li {
+    padding-top: 1rem;
+}
+
+/* HEADER */
+/* FOOTER */

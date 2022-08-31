@@ -51,13 +51,38 @@ $questions = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- CSS -->
     <link href="style/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3395c408c6.js" crossorigin="anonymous"></script>
+
     <title>Domande frequenti - Privacy e termini</title>
    </head>
    <body>
+
+    <header class="fixed-top">
+        <div class="d-flex justify-content-between">
+            <div>
+                <img id="header-logo" src="img/google-logo.png" alt="Google Logo">
+                <span id="header-logo-description">Privacy e termini</span>
+            </div>
+            <div>
+                <div id="user-pic" class="d-inline-block"></div>
+            </div>
+        </div>
+        <nav>
+            <ul class="d-flex">
+                <li class="nav-link"> <a href="#">Introduzione</a></li>
+                <li class="nav-link"><a href="#">Norme sulla Privacy</a></li>
+                <li class="nav-link"><a href="">Termini di Servizio</a></li>
+                <li class="nav-link"><a href="#">Tecnologie</a></li>
+                <li class="nav-link"><a href="#">Domande Frequenti</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <main class="my-container">
         <?php foreach($questions as $question => $answers) : ?>
@@ -69,6 +94,28 @@ $questions = [
 
         <?php endforeach; ?>
     </main>
-
+    
+    <footer>
+        <div class="my-container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <ul class="d-flex">
+                        <li>Google</li>
+                        <li>Tutto su Google</li>
+                        <li>Privacy</li>
+                        <li>Termini</li>
+                    </ul>
+                </div>
+                <div>
+                <select name="language">
+                    <option value="italiano">Italiano</option>
+                    <option value="inglese">Inglese</option>
+                    <option value="francese">Francese</option>
+                    <option value="tedesco">Tedesco</option>
+                </select>
+                </div>
+            </div>
+        </div>
+    </footer>
    </body>
    </html>

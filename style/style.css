@@ -5,9 +5,19 @@
     line-height: 1.5rem;
 }
 
+body {
+    padding-top: 13rem;
+}
+
 a {
     text-decoration: none;
 }
+
+li {
+    list-style-type: none;
+}
+
+/* UTILS */
 
 .my-container {
     width: 960px;
@@ -28,4 +38,70 @@ li {
 }
 
 /* HEADER */
+
+header {
+    padding: 1.4rem 1.4rem 0 1.4rem;
+    background-color: #FFF;
+    border-bottom: 1px solid #6A6D72;;
+}
+
+#header-logo {
+    width: 18%;
+}
+
+#header-logo-description {
+    color: #6A6D72;
+    font-size: 1.5rem;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+#user-pic {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #6A6D72;
+}
+
+nav ul{
+    padding: 1rem 0 0 0;
+    margin: 0;
+}
+
+.nav-link {
+    padding-right: 2.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+.nav-link a{
+    color: #6A6D72;
+    font-size: 1rem;
+    font-weight: 400;
+
+    padding-bottom: 0.8rem;
+}
+
+.nav-link a:hover {
+    border-bottom: 3px solid #3367D6;
+    color: #3367D6;
+}
+
 /* FOOTER */
+
+footer{
+    background-color: #F5F5F5;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+footer select {
+    margin-top: 1rem;
+}
